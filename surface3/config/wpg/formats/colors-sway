@@ -1,0 +1,21 @@
+set $wallpaper /home/shadefox/.config/wpg/wallpapers/Devil_Daggers.png
+
+set $background #000000
+set $foreground #ffffff
+
+set $color0 #000000
+set $color1 #BF5238
+set $color2 #DB632E
+set $color3 #333333
+set $color4 #79838A
+set $color5 #79838A
+set $color6 #F59533
+set $color7 #A84F2E
+set $color8 #BF5238
+set $color9 #F0BE5D
+set $color10 #F59533
+set $color11 #333333
+set $color12 #ff9900
+set $color13 #A84F2E
+set $color14 #DB632E
+set $color15 #ffffff

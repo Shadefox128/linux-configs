@@ -1,0 +1,37 @@
+"---COLOR SETTINGS---
+set t_Co=16
+set background=dark
+syntax enable
+
+"---FORMATTING---
+filetype plugin indent on
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+
+
+"---INTERFACE---
+set number
+set wildmenu
+set showmatch
+
+"---SEARCHING---
+set incsearch
+set hlsearch
+
+"---MOVEMENT---
+nnoremap j gj
+nnoremap k gk
+nnoremap <leader>s :set spell
+
+for prefix in ['i', 'n', 'v']
+	for key in ['<Up>', '<Down>', '<Left>', '<Right>']
+		exe prefix . "noremap " . key . " <Nop>"
+	endfor
+endfor
+
+"---SYSTEM---
+set backup
+set backupdir-=.
+set backupdir^=~/tmp,/tmp
